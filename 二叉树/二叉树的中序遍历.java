@@ -3,7 +3,6 @@ public class Main {
         char val;
         Node left;
         Node right;
-
         Node(char v){
             this.val = v;
         }
