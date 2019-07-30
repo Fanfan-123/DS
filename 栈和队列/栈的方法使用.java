@@ -73,3 +73,25 @@ public class MyStack implements StackInterface{
     }
 }
 
+package www.fanfan.com;
+
+public class StackTest {
+    public static void main(String[] args) {
+        MyStack myStack = new MyStack();
+        myStack.push(1);
+        myStack.push(2);
+        myStack.push(3);
+        myStack.display();
+
+        System.out.println("返回栈顶元素但不删除："+myStack.peek());
+        myStack.display();
+
+        System.out.println("返回栈顶元素并不删除："+myStack.pop());
+        myStack.display();
+
+
+    }
+}
+
+
+
