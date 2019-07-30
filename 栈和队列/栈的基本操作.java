@@ -6,7 +6,6 @@ public class MyStack {
         this.top = 0;
     }
 
-
     //压栈
     public void push(int v){
         this.array[this.top++] = v;
