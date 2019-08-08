@@ -30,6 +30,7 @@ public class BubbleSortTest {
             //如果为false，则数组还是无序的，还需要进行排序
             if (sort == true){
                 break;
+                
             }
         }
     }
