@@ -144,9 +144,8 @@ public class Practise1 implements IDoubleLinked{
             if (cur.data == key){
                 cur.pre.next = cur.next;
                 cur.next.pre = cur.pre;
-            }else {
-                cur = cur.next;
             }
+                cur = cur.next;
         }
         if (tail.data == key){
             tail.pre.next = null;
