@@ -1,6 +1,5 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        // 使用双指针
         if(nums==null || nums.length == 1){
             return nums.length;
         }
